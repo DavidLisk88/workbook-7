@@ -78,7 +78,7 @@ DELETE FROM suppliers
 WHERE CompanyName = 'New Supplier';
 
 -- 08
-SELECT * FROM products;
+SELECT ProductName FROM products;
 
 -- 09 
-SELECT * FROM suppliers;
+SELECT CompanyName AS Suppliers FROM suppliers;
